@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Box } from "@mui/material";
-import Banner from "./Banner";
 import Editor from "./Editor";
 import Footer from "./footer";
 import "@fontsource/fira-code";
+import Banner from "./banner";
 
 const App: React.FC = () => {
   const [markdown, setMarkdown] = useState<string>(() => {
